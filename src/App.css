@@ -8,33 +8,7 @@ body{
   background-color: var(--main-bg-color);
   width:100%;
   height:100%;
+  margin:0;
+  padding:0;
 }
 
-.App ul{
-  background-color:black;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border:7px solid rgb(110, 46, 46);
-  border-radius:50px;
-}
-.App ul li  {
-  display:var(--display);
-  font-size: var(--main-font-size);
-  margin-left:var(--margin);
-
-}
-.link-content {
-  margin:var(--margin);
-  color:rgb(236, 126, 181);
-  text-decoration: none;
-}
-.link-content:hover{
-  border:2px solid crimson;
-  border-radius:10px;
-  color:rgb(114, 173, 184);
-}
-.link-content:active{
-  border:2px solid rgb(141, 75, 88);
-  border-radius:10px;
-  color:rgb(140, 144, 145);
-}

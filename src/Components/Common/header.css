@@ -1,0 +1,43 @@
+:root{
+    --main-bg-color:rgb(53, 7, 7);
+    --main-font-size:40px;
+    --margin:15px;
+    --display:inline;
+  }
+
+.menu-header{
+    background-color:black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border:7px solid rgb(110, 46, 46);
+    border-radius:50px;
+    margin-bottom: 20px;
+  }
+  .menu li  {
+    display:var(--display);
+    font-size: var(--main-font-size);
+    margin-left:var(--margin);
+  
+  }
+  .link-content {
+    margin:var(--margin);
+    color:rgb(236, 126, 181);
+    text-decoration: none;
+  }
+  .link-content:hover{
+    border:2px solid crimson;
+    border-radius:10px;
+    color:rgb(114, 173, 184);
+  }
+  .link-content:active{
+    border:2px solid rgb(141, 75, 88);
+    border-radius:10px;
+    color:rgb(140, 144, 145);
+  }
+  .active{
+    border:2px solid crimson;
+    border-radius:10px;
+    color:rgb(189, 171, 175);
+  }
+ 
+  

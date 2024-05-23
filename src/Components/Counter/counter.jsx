@@ -3,7 +3,8 @@ import React from 'react';
 import { BiPlusMedical } from 'react-icons/bi';
 import { FaMinus } from 'react-icons/fa';
 
-export default function Counter({ count, onIncrement, onDecrement , onReset }) {
+export default function Counter({ count, onIncrement, onDecrement , onReset }) // Getting data using Prop method
+{
   return (
     <Wrapper>
     <div className="counter-info">
@@ -29,7 +30,7 @@ const Wrapper = styled.section`
     background-color:black;
     color:red;
    padding:150px 0px ;
-   margin: 150px;
+   margin: 100px;
    overflow:hidden;
    border:2px solid crimson;
    border-radius:100px;
